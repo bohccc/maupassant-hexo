@@ -110,9 +110,16 @@ menu:
   - page: about
     directory: about/
     icon: fa-user
-  - page: rss
-    directory: atom.xml
-    icon: fa-rss
+  - page: past_exams
+    directory: past_exams/
+    icon: fa-book
+  - page: past_grades
+    directory: past_grades/
+    icon: fa-trophy
+  - page: present
+    directory: present/
+    icon: fa-gift
+
 
 widgets: ## Seven widgets in sidebar provided: search, info, category, tag, recent_posts, recent_comments and links.
   - search
@@ -131,10 +138,10 @@ info:
       outlink: https://twitter.com/username
       message: Twitter
     - name: envelope
-      outlink: mailto:admin@domain.com
+      outlink: mailto:bohccc2022@gmail.com
       message: Email
     - name: github
-      outlink: https://github.com/username
+      outlink: https://github.com/bohccc
       message: Github
     - name: rss
       outlink: /atom.xml
